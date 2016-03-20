@@ -1,5 +1,4 @@
-package com.leetcode.hashtable;
-
+package com.leetcode.linkedlist;
 
 /**
  * You are given two linked lists representing two non-negative numbers. 
