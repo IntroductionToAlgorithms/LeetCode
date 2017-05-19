@@ -14,7 +14,6 @@ public class ReverseLinkedList {
                 head = frontier;
             }
         }
-
         return head;
     }
 }
