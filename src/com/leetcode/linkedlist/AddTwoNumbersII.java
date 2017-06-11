@@ -1,5 +1,7 @@
 package com.leetcode.linkedlist;
 
+import com.leetcode.util.ListNode;
+
 import java.util.Stack;
 
 /**

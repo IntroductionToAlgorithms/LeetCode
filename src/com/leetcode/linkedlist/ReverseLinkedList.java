@@ -1,5 +1,7 @@
 package com.leetcode.linkedlist;
 
+import com.leetcode.util.ListNode;
+
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         if (head != null && head.next != null)

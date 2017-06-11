@@ -1,5 +1,7 @@
 package com.leetcode.linkedlist;
 
+import com.leetcode.util.ListNode;
+
 /**
  * Created by guangoon on 17-5-18.
  */

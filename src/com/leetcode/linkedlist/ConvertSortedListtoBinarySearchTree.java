@@ -1,5 +1,6 @@
 package com.leetcode.linkedlist;
 
+import com.leetcode.util.ListNode;
 import com.leetcode.util.TreeNode;
 
 /**
