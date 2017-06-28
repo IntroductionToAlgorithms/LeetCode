@@ -1,5 +1,6 @@
 package com.leetcode.tree;
 
+import com.leetcode.util.TreeNode;
 import com.leetcode.util.Util;
 
 import java.util.Arrays;
@@ -19,7 +20,7 @@ public class DeleteNodeinaBST {
             if (root.right == null) return root.left;
             if (root.left  == null) return root.right;
             TreeNode tmpNode = root;
-            root = min(root.right);
+            root = min(tmpNode.right);
             root.left = tmpNode.left;
             root.right = deleteMin(tmpNode.right);
         }
@@ -41,8 +42,8 @@ public class DeleteNodeinaBST {
 
     public static void main(String[] args){
         String ss = "[5,3,6,2,4,null,7]";
-        Util.buildTreeNode(ss);
-
-
+        TreeNode root = Util.buildTreeNode(ss);
+        DeleteNodeinaBST dnb = new DeleteNodeinaBST();
+        dnb.deleteNode(root,3);
     }
 }

@@ -1,5 +1,7 @@
 package com.leetcode.tree;
 
+import com.leetcode.util.TreeNode;
+
 /**
  * Created by guangoon on 6/28/17.
  */

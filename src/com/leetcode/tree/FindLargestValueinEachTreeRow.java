@@ -1,5 +1,7 @@
 package com.leetcode.tree;
 
+import com.leetcode.util.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
