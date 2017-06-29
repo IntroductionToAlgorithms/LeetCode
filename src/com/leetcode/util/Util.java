@@ -40,11 +40,7 @@ public class Util {
     }
 
     public void printTreeNode(TreeNode root){
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-        StringBuilder sb = new StringBuilder();
-        int level = 1;
-        int index = 0;
+
     }
 
     public static  boolean isNumeric(String str){
