@@ -10,7 +10,6 @@ import java.util.Queue;
 public class Util {
     public static TreeNode buildTreeNode(String input){
         String[] a = input.substring(1, input.length() - 1).split(",");
-        System.out.println(Arrays.toString(a));
         Queue<String> queue = new LinkedList<>();
         for(String string : a)
             queue.offer(string);
@@ -50,5 +49,13 @@ public class Util {
             }
         }
         return true;
+    }
+
+    public static  void printNode(TreeNode x){
+        if(x == null)
+            return;
+        System.out.print(x.val);
+        printNode(x.left);
+        printNode(x.right);
     }
 }
